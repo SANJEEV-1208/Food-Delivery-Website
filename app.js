@@ -4,6 +4,7 @@ const menuItems = [
   { name: 'Pasta', price: '$7.49' },
   { name: 'Sushi', price: '$12.99' },
   { name: 'Tacos', price: '$6.99' },
+  { name: 'Chocos', price: '$2.00' },
 ];
 
 function renderMenu() {
