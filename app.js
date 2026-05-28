@@ -21,4 +21,7 @@ function orderNow() {
   alert('Redirecting to menu...');
 }
 
+function goAbout(){
+  alert('Redirecting to about page...');
+}
 renderMenu();
