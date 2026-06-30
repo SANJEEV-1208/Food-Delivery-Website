@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Food Delivery</title>
+  <title>Food Delivery - Order Online</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>FoodExpress</h1>
+    <div class="logo">
+      <h1>🍔 FoodExpress</h1>
+      <span class="tagline">Fast & Fresh</span>
+    </div>
     <nav>
       <a href="#">Home</a>
       <a href="#">Menu</a>
       <a href="#">Orders</a>
-      <a href="#">About</a>
-      <!-- Added new link -->
+      <a href="#">About Us</a>
       <a href="#">Contact</a>
       <a href="#">Logout</a>
     </nav>
@@ -23,23 +25,39 @@
   <main>
     <section class="hero">
       <h2>Delicious food, delivered fast</h2>
-      <p>Order from the best local restaurants</p>
-      <button onclick="orderNow()">Order Now</button>
+      <p>Order from the best local restaurants in your area</p>
+      <button onclick="orderNow()" class="btn-primary">Order Now</button>
+      <button onclick="viewMenu()" class="btn-secondary">View Menu</button>
     </section>
 
     <section class="menu">
       <h3>Popular Items</h3>
       <div class="items" id="menuItems"></div>
-      <!-- Added new section -->
+      
       <div class="featured-deals">
-        <h4>Today's Special Deals</h4>
+        <h4>🔥 Today's Special Deals</h4>
         <p>Get 20% off on your first order!</p>
+        <p class="deal-code">Use code: FIRST20</p>
+      </div>
+    </section>
+
+    <!-- New Testimonials Section -->
+    <section class="testimonials">
+      <h3>What Our Customers Say</h3>
+      <div class="testimonial">
+        <p>"Amazing food and super fast delivery!"</p>
+        <span>- Sarah</span>
+      </div>
+      <div class="testimonial">
+        <p>"Best pizza in town. Highly recommend!"</p>
+        <span>- Mike</span>
       </div>
     </section>
 
     <!-- Added footer -->
     <footer>
       <p>&copy; 2026 FoodExpress. All rights reserved.</p>
+      <p>Made with ❤️ for food lovers</p>
     </footer>
   </main>
 
