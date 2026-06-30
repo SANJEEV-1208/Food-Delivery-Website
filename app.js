@@ -5,10 +5,8 @@ const menuItems = [
   { name: 'Sushi', price: '$12.99', category: 'Japanese' },
   { name: 'Tacos', price: '$6.99', category: 'Mexican' },
   { name: 'Chocos', price: '$2.00', category: 'Dessert' },
-  { name: 'Fried Chicken', price: '$9.99', category: 'Fast Food' }, // New item
 ];
 
-// Added new function to filter by category
 function filterByCategory(category) {
   const filtered = menuItems.filter(item => item.category === category);
   alert(`Found ${filtered.length} items in ${category} category`);
