@@ -5,6 +5,7 @@ const menuItems = [
   { name: 'Sushi', price: '$12.99', category: 'Japanese' },
   { name: 'Tacos', price: '$6.99', category: 'Mexican' },
   { name: 'Chocos', price: '$2.00', category: 'Dessert' },
+  { name: 'Another Chocos', price: '$3.00', category: 'Italian' },
 ];
 
 function filterByCategory(category) {
